@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/04b75376e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blue-Skys Photography</title>
+  </head>
+
+  <body id="body">
+    <header>
+      <div class="header-container">
+        <div id="branding">
+          <h1>
+            <a href="#"><span class="highlight">Blue-Skys</span> Photography</a>
+          </h1>
+        </div>
+        <nav class="menu-wrapper">
+          <ul id="main-menu">
+            <li class="menu-item"><a href="#">Our Story</a></li>
+            <li class="menu-item"><a href="#">Gallery</a></li>
+            <li class="menu-item"><a href="#">Events</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- HERO IMAGE SECTION -->
+    <div class="hero-image">
+      <div class="overlay">
+        <h2 class="tag-line">Capture the Imagination</h2>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#body" id="topButton" title="Go to Top"
+      ><i class="fa-solid fa-arrow-up"></i
+    ></a>
+
+    <!--Our Story Section -->
+    <section id="our-story">
+      <div class="container">
+        <h3>Our Story</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatum, quae, quod, voluptas quibusdam voluptates quidem
+          voluptatibus quos voluptate quia quas. Quisquam, quae. Quisquam
+          voluptatum, quae, quod, voluptas quibusdam voluptates quidem
+          voluptatibus quos voluptate quia quas. Quisquam, quae.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatum, quae, quod, voluptas quibusdam voluptates quidem
+          voluptatibus quos voluptate quia quas. Quisquam, quae. Quisquam
+          voluptatum, quae, quod, voluptas quibusdam voluptates quidem
+          voluptatibus quos voluptate quia quas. Quisquam, quae.
+        </p>
+        <div id="gallery-wrapper">
+          <div class="gallery-row">
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/491/300/200"
+                  alt="Gallery Item #1"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/239/300/200"
+                  alt="Gallery Item #2"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/443/300/200"
+                  alt="Gallery Item #3"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/299/300/200"
+                  alt="Gallery Item #4"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/268/300/200"
+                  alt="Gallery Item #5"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+              <div>
+                <img
+                  src="https://picsum.photos/id/256/300/200"
+                  alt="Gallery Item #6"
+                />
+              </div>
+              <p>Image Title</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+      <div class="container">
+        <h3>Upcoming Events</h3>
+        <table id="upcoming-events-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Location</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10/21/2023</td>
+              <td>Toronto Gallery</td>
+              <td>Toronto, ON</td>
+              <td>Professional Event</td>
+            </tr>
+            <tr>
+              <td>11/21/2023</td>
+              <td>Montreal Gallery</td>
+              <td>Montreal, QC</td>
+              <td>Professional Event</td>
+            </tr>
+            <tr>
+              <td>3/21/2024</td>
+              <td>Toronto Gallery</td>
+              <td>New York City, NY</td>
+              <td>Professional Event</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <p>Please Any Comments, Questions or Feedback</p>
+        <form action="https://mailthis.to/danmasson0@gmail.com" method="POST">
+          <fieldset>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your name..."
+              id=""
+            />
+            <input
+              type="email"
+              name="_replyto"
+              placeholder="Enter Your email..."
+              id=""
+            />
+            <textarea
+              name="message"
+              placeholder="Enter Your Message..."
+              id=""
+            ></textarea>
+            <button type="submit">Send</button>
+            <input
+              type="hidden"
+              name="_subject"
+              value="Contact form submitted"
+            />
+            <input
+              type="hidden"
+              name="_confirmation"
+              value="your form has been submitted"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <nav class="menu-wrapper">
+          <ul id="footer-menu">
+            <li class="menu-item"><a href="#">Privacy Policy</a></li>
+            <li class="menu-item"><a href="#">Legal</a></li>
+            <li class="menu-item"><a href="#">Sponsors</a></li>
+          </ul>
+        </nav>
+        <div id="copyright">
+          &copy; Copyright - Blue Skys Photography - All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
