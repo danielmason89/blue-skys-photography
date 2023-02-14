@@ -308,16 +308,18 @@ header nav ul li {
   font-size: 1.05rem;
   border: none;
   outline: none;
-  background-color: #222;
+  background-color: rgb(63, 98, 176);
   color: #fff;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 15%;
+  padding: 15px;
+  left: 10px;
+  width: 2.2vw;
+  border-radius: 4px;
 }
 
 #topButton:hover {
-  background-color: #555;
-  opacity: 0.7;
+  background-color: #908080;
+  opacity: 0.9;
 }
 
 #our-story {
